@@ -1,0 +1,24 @@
+{
+  "name": "GoogleDriveSecure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "googleapis": "^91.0.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

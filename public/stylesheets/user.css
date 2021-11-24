@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.menuPart{
+    padding: 0px 0px;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper{
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    /* display: flex;
+    flex-direction: row; */
+}
+.details{
+    /* width: 80%; */
+    height: auto;
+    margin: 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left_part{
+    width:17%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+.profile{
+    width: 200px;
+    height: 280px;
+    background-color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+}
+
+.profile_image{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+        
+        
+
+
+th{
+    background-color: rgb(219, 219, 219);
+    text-align: center;
+    border: 1px solid white;
+    max-width:80px;
+}
+
+td {
+    background-color:rgb(219, 219, 219);;
+    max-width: 80px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+td:hover{
+    overflow: hidden;
+}
+
+.file_operations{
+    padding: 20px 50px 2px 0px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: yellow; */
+}
+
+.file_upload{
+    width:50%;
+    /* background-color: grey; */
+}
+
+.file_download{
+    width: 50%;
+    /* background-color: grey; */
+}
+
+#download_file, #file_name, #password{
+    margin-left: 5px;margin-bottom: 10px; width: 48%;border: 1px solid rgb(214, 214, 214);border-radius: 10px;height: 35px;padding-left: 20px;box-shadow: rgb(231, 231, 231);
+}
+
+.instructions{
+    margin: 0px;
+    padding-top:100px;
+    width:100%;
+    position: relative;
+}
+
+.instructions_1{
+    margin: 0 auto;
+    position: relative;
+    height: 80%;
+    width: 80%;
+    padding-top: 15px;
+    background-color: azure;
+    padding-bottom: 50px;
+
+}
+
+li{
+    font-size: 18px;
+    color: rgb(12, 78, 116);
+}
+/* #col_1 {
+    width:100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#col_1 #col_2 #col_3 #col_4 #col_5 #col_6 #col_7 #col_8 .hover{
+    overflow: visible;
+} */
+        
+
+/* .menuOptions{
+    height: auto;
+}
+
+.menuOptions li{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+} */
+ 
